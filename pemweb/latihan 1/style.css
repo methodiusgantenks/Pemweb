@@ -1,0 +1,34 @@
+body{
+    font-family:  'Roboto';
+}
+
+
+p{
+    text-align: justify
+}
+.subjudul{
+    color:red;
+}
+
+img
+{
+    margin: 5px;
+}
+#imgedung{
+    float: left;
+    margin: 5px;
+    max-width: 40%;
+    width: 500px;
+}
+
+#imglogo{
+    float: right;
+    max-width: 40%;
+    width: 200px;
+}
+.videoupj{
+    height: 500;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}

@@ -1,0 +1,87 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #277BC0;
+    }
+
+li {
+    float: left;
+    }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li1 a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color:#2167a1;
+}
+.footer-top
+{
+    overflow: hidden;
+    padding: 15px 0;
+    background-color: #fff;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 15%);
+}
+.footer-mid
+{
+    padding: 30px 0;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    color: #aaa;
+    background: #84A42E;
+}
+.footer-bot {
+    padding: 15px 0;
+    overflow: hidden;
+    font-size: 13px;
+    color: #fff;
+    background-color: #84A42E;
+}
+.bg-konten
+{
+    background-image: url(gedung-2.jpg);
+    opacity: 70%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 350px;
+    width: 100%;
+}
+
+.bg-konten {
+    position: relative;
+    background-attachment: fixed;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    transform: translate(0,0);
+    padding: 50px 0;
+}
+.konten
+{
+    font-size: 50px;
+}
+.gambar
+{
+    height: 200px;
+    width: 350px;
+}

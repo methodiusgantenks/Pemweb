@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- link css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <div class="container bg-light mt-3 rounded-2 text-dark p-3">
+        <!--Heading-->
+        <h2 class="text-center">
+            Contact Us
+        </h2>
+        <!--Deskripsi-->
+        <p class = "text-center mx-auto">
+            Apakah kamu punya pertanyaan? tolong jangan segan untuk menghubungi kami. team kami akan membantu anda tanpa mengenal waktu untuk menolong anda
+        </p>
+        <!--KONTAK KAMI-->
+        <div class="row">
+            <!--FORMULIR-->
+            <div class="col-sm-9">
+                <form 
+                name="contact-form" 
+                action="mail.php"
+                method="post">
+                <!-- nama dan email -->
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-floating mt-3 mb-3" >
+                            <input 
+                            class=" form-control" 
+                            type="text" 
+                            id="nama" 
+                            name="nama" 
+                            placeholder="Input Nama">
+                            <label for="nama">Nama</label>
+                        </div>  
+                    </div>
+                    <!-- email -->
+                    <div class="col-sm-6">
+                        <div class="form-floating mt-3 mb-3" >
+                            <input 
+                            class=" form-control" 
+                            type="text" 
+                            id="email" 
+                            name="email" 
+                            placeholder="Input email">
+                            <label for="email">Email</label>
+                        </div>  
+                    </div>
+                </div>
+                <div class="row">
+                <div class="col-sm-12">
+                    <div class="form-floating mt-3 mb-3" >
+                        <input 
+                        class=" form-control" 
+                        type="text" 
+                        id="subject" 
+                        name="subject" 
+                        placeholder="Input subject">
+                        <label for="email">Subject</label>
+                    </div> 
+                    <div class="form-floating mt-3 mb-3" >
+                        <textarea
+                        class="form-control"
+                        rows ="4"
+                        id = "message"
+                        name="message"
+                        placeholder="tinggalkan teks disini"
+                        style="height: ; 10px"
+                        ></textarea>
+                        <label for="message">Pesan</label>
+                    </div> 
+                    <button class="btn btn-primary" type="submit">Kirim</button>
+                </div>
+            </div>
+            
+            </form>
+            </div>
+            
+            <div class="col-sm-3 text-center">
+                <!-- alamat dan ikon -->
+                <div class="alamat">
+                    <i class="icons fa-solid fa-location-dot mt-4"></i>
+                    <p>Jl.Lingkar Selatan no 26, Kel Cisauk , Kec. Cisauk, Tangerang Banten</p>
+                </div>
+                <!-- no telp dan ikon -->
+                <div class="telfon">
+                    <i class="icons fa-solid fa-phone"></i>
+                    <p>+62 812 8080 3556</p>
+                </div>
+                <!-- email dan icon -->
+                <div class="email">
+                    <i class="icons fa-solid fa-envelope"></i>
+                    <p>methodiustoti@gmail.com</p>
+                </div>
+            </div>
+            </div>
+            <div>
+                <div class="mapouter"><div class="gmap_canvas"><iframe width="1280" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=metro%20serpong%202&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:1280px;}</style><a href="https://www.embedgooglemap.net">embedgooglemap.net</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1280px;}</style></div></div>
+            </div>
+        
+    </div>
+    
+    <!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
